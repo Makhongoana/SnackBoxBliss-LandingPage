@@ -1,0 +1,170 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f8f9fa;
+}
+
+header {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    color: #333;
+}
+
+#hero {
+    background: url('https://i.imgur.com/I8T3iCq.jpeg') no-repeat center center/cover;
+    color: #fff;
+    padding: 6rem 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#hero .container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#hero h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#hero .cta {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #e8491d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+#hero .cta:hover {
+    background: #333;
+}
+
+#products, #about, #contact {
+    padding: 4rem 1rem;
+    text-align: center;
+    background: #fff;
+    margin: 2rem 0;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+#products h2, #about h2, #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ff6f61;
+    position: relative;
+}
+
+#products h2 span, #about h2 span, #contact h2 span {
+    position: absolute;
+    right: -1.5rem;
+    top: -1rem;
+    font-size: 1.5rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.product {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.product h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #ff6f61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product h3 span {
+    margin-left: 0.5rem;
+}
+
+#about p {
+    max-width: 800px;
+    margin: auto;
+}
+
+#contact p {
+    max-width: 600px;
+    margin: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer .social-links {
+    margin: 1rem 0;
+}
+
+footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #ff6f61;
+  }
