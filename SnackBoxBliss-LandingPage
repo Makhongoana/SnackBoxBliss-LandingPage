@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Snack Box Bliss</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="styles.css"> 
+ </head> 
+ <body> 
+  <header> 
+   <nav> 
+    <ul> 
+     <li><a href="#hero">Home</a></li> 
+     <li><a href="#products">Products</a></li> 
+     <li><a href="#about">About</a></li> 
+     <li><a href="#contact">Contact</a></li> 
+    </ul> 
+   </nav> 
+  </header> 
+  <section id="hero"> 
+   <div class="container"> 
+    <h2>Welcome to Snack Box Bliss <span>🎉</span></h2> 
+    <p>Your one-stop shop for delicious homemade snacks and sweets. <span>🥞🍟🍬</span></p> <a href="#products" class="cta">Shop Now <span>🛒</span></a> 
+   </div> 
+  </section> 
+  <section id="products"> 
+   <div class="container"> 
+    <h2>Our Products <span>🍭</span></h2> 
+    <div class="product-grid"> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/ziab36U.jpeg" alt="Pancakes"> 
+      <h3>Pancakes <span>🥞</span></h3> 
+      <p>Delicious homemade pancakes, perfect for breakfast or a snack.</p> 
+     </div> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/ovHvgIw.jpeg" alt="Chip Curls"> 
+      <h3>Chip Curls <span>🍟</span></h3> 
+      <p>Crispy and tasty homemade chip curls, a great snack for any time.</p> 
+     </div> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/LaMt0uI.jpeg" alt="Sanitary Towel Combo"> 
+      <h3>Sanitary Towel Combo <span>🩸</span></h3> 
+      <p>A complete combo including pads, panty liners, pain relief, hot water bottle, nuts, lip balm, facial scrubs, educational booklets that debunk menstrual myths, and treats.</p> 
+     </div> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/hkrFMBr.jpeg" alt="Variety Sweets"> 
+      <h3>Variety Sweets <span>🍬</span></h3> 
+      <p>A delightful assortment of sweets in a cute container, perfect for satisfying your sweet tooth.</p> 
+     </div> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/zXD8gFa.jpeg" alt="Desserts"> 
+      <h3>Desserts <span>🍰</span></h3> 
+      <p>Homemade desserts in a variety of flavors, served in cute containers.</p> 
+     </div> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/78h0f1V.jpeg" alt="Self Defense Kit"> 
+      <h3>Self Defense Kit <span>🛡️</span></h3> 
+      <p>Essential self-defense items to keep you safe, including pepper spray, a personal alarm, and more.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="about"> 
+   <div class="container"> 
+    <h2>About Us <span>🌟</span></h2> 
+    <p>At Snack Box Bliss, we offer a delightful selection of homemade snacks, sweets, and essential kits. Our mission is to provide high-quality products that bring joy and convenience to our customers' lives.</p> 
+   </div> 
+  </section> 
+  <section id="contact"> 
+   <div class="container"> 
+    <h2>Contact Us <span>📞</span></h2> 
+    <p>If you have any questions or would like to place an order, please reach out to us at <a href="mailto:hello.sheinspire@gmail.com">hello.sheinspire@gmail.com</a>.</p> 
+   </div> 
+  </section> 
+  <footer> 
+   <div class="container"> 
+    <p>© 2024 Snack Box Bliss. All rights reserved.</p> 
+    <div class="social-links"> <a href="#">Facebook</a> <a href="#">Instagram</a> <a href="#">Twitter</a> 
+    </div> 
+   </div> 
+  </footer> 
+ </body>
+</html>
