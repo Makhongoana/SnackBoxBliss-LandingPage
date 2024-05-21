@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Snack Box Bliss</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="styles.css"> 
+ <style type="text/css" id="dcoder_stylesheet">body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f8f9fa;
+}
+
+header {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    color: #333;
+}
+
+#hero {
+    background: url('https://i.imgur.com/I8T3iCq.jpeg') no-repeat center center/cover;
+    color: #fff;
+    padding: 6rem 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#hero .container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#hero h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#hero .cta {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #e8491d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+#hero .cta:hover {
+    background: #333;
+}
+
+#products, #about, #contact {
+    padding: 4rem 1rem;
+    text-align: center;
+    background: #fff;
+    margin: 2rem 0;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+#products h2, #about h2, #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ff6f61;
+    position: relative;
+}
+
+#products h2 span, #about h2 span, #contact h2 span {
+    position: absolute;
+    right: -1.5rem;
+    top: -1rem;
+    font-size: 1.5rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.product {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.product h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #ff6f61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product h3 span {
+    margin-left: 0.5rem;
+}
+
+#about p {
+    max-width: 800px;
+    margin: auto;
+}
+
+#contact p {
+    max-width: 600px;
+    margin: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer .social-links {
+    margin: 1rem 0;
+}
+
+footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #ff6f61;
+}</style></head> 
+ <body> 
+  <header> 
+   <nav> 
+    <ul> 
+     <li><a href="#hero">Home</a></li> 
+     <li><a href="#products">Products</a></li> 
+     <li><a href="#about">About</a></li> 
+     <li><a href="#contact">Contact</a></li> 
+    </ul> 
+   </nav> 
+  </header> 
+  <section id="hero"> 
+   <div class="container"> 
+    <h2>Welcome to Snack Box Bliss <span>🎉</span></h2> 
+    <p>Your one-stop shop for delicious homemade snacks and sweets. <span>🥞🍟🍬</span></p> <a href="#products" class="cta">Shop Now <span>🛒</span></a> 
+   </div> 
+  </section> 
+  <section id="products"> 
+   <div class="container"> 
+    <h2>Our Products <span>🍭</span></h2> 
+    <div class="product-grid"> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/ziab36U.jpeg" alt="Pancakes"> 
+      <h3>Pancakes <span>🥞</span></h3> 
+      <p>Delicious homemade pancakes, perfect for breakfast or a snack.</p> 
+     </div> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/ovHvgIw.jpeg" alt="Chip Curls"> 
+      <h3>Chip Curls <span>🍟</span></h3> 
+      <p>Crispy and tasty homemade chip curls, a great snack for any time.</p> 
+     </div> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/LaMt0uI.jpeg" alt="Sanitary Towel Combo"> 
+      <h3>Sanitary Towel Combo <span>🩸</span></h3> 
+      <p>A complete combo including pads, panty liners, pain relief, hot water bottle, nuts, lip balm, facial scrubs, educational booklets that debunk menstrual myths, and treats.</p> 
+     </div> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/hkrFMBr.jpeg" alt="Variety Sweets"> 
+      <h3>Variety Sweets <span>🍬</span></h3> 
+      <p>A delightful assortment of sweets in a cute container, perfect for satisfying your sweet tooth.</p> 
+     </div> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/zXD8gFa.jpeg" alt="Desserts"> 
+      <h3>Desserts <span>🍰</span></h3> 
+      <p>Homemade desserts in a variety of flavors, served in cute containers.</p> 
+     </div> 
+     <div class="product"> 
+      <img src="https://i.imgur.com/78h0f1V.jpeg" alt="Self Defense Kit"> 
+      <h3>Self Defense Kit <span>🛡️</span></h3> 
+      <p>Essential self-defense items to keep you safe, including pepper spray, a personal alarm, and more.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="about"> 
+   <div class="container"> 
+    <h2>About Us <span>🌟</span></h2> 
+    <p>At Snack Box Bliss, we offer a delightful selection of homemade snacks, sweets, and essential kits. Our mission is to provide high-quality products that bring joy and convenience to our customers' lives.</p> 
+   </div> 
+  </section> 
+  <section id="contact"> 
+   <div class="container"> 
+    <h2>Contact Us <span>📞</span></h2> 
+    <p>If you have any questions or would like to place an order, please reach out to us at <a href="mailto:hello.sheinspire@gmail.com">hello.sheinspire@gmail.com</a>.</p> 
+   </div> 
+  </section> 
+  <footer> 
+   <div class="container"> 
+    <p>© 2024 Snack Box Bliss. All rights reserved.</p> 
+    <div class="social-links"> <a href="#">Facebook</a> <a href="#">Instagram</a> <a href="#">Twitter</a> 
+    </div> 
+   </div> 
+  </footer> 
+ 
+<script type="text/javascript" id="dcoder_script">// scripts.js
+document.getElementById('newsletter-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const email = document.getElementById('email').value;
+    alert(`Thank you for subscribing with email: ${email}`);
+    document.getElementById('email').value = '';
+});</script></body></html>
